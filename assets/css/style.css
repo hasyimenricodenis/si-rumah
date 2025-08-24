@@ -6,6 +6,7 @@ body{margin:0;font-family:'Poppins',sans-serif;color:#333;background:var(--bg);-
 header{display:flex;justify-content:space-between;align-items:center;padding:14px 6%;background:white;position:sticky;top:0;z-index:50;box-shadow:0 1px 0 rgba(0,0,0,0.04)}
 .logo{display:flex;align-items:center;gap:12px}.logo img{height:48px}.logo-text h4{margin:0;font-size:12px;color:#006400;letter-spacing:1px}.logo-text h3{margin:0;font-size:18px;color:#333}
 
+nav{display:flex;flex-wrap:wrap;justify-content:center}
 nav a{margin:0 10px;text-decoration:none;color:var(--pink-strong);font-weight:600;position:relative;transition:color .3s}
 nav a::after{content:"";position:absolute;left:0;bottom:-4px;height:2px;width:0;background:var(--primary);transition:width .3s}
 nav a:hover{color:var(--primary)}
@@ -75,7 +76,7 @@ footer{padding:24px 6%;background:#fff;border-top:1px solid #eee;text-align:cent
 .video-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;padding:30px 6%}.video-card iframe{width:100%;height:220px;border-radius:10px;border:0}
 .jadwal-table{padding:30px 6%;overflow:auto}.jadwal-table table{width:100%;border-collapse:collapse;min-width:600px}.jadwal-table th,.jadwal-table td{padding:12px 14px;border:1px solid #e9e9e9;text-align:center}.jadwal-table th{background:var(--primary);color:#fff}
 .contact-section{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:30px 6%;background:#fff}.contact-info h3{color:var(--primary)}.contact-form form{display:flex;flex-direction:column}.contact-form label{margin-top:12px;margin-bottom:6px;font-weight:600}.contact-form input,.contact-form textarea{padding:10px;border-radius:8px;border:1px solid #ddd;outline:none}.contact-form button{margin-top:16px;padding:12px;border-radius:8px;border:none;background:var(--primary);color:#fff;cursor:pointer}
-@media (max-width:900px){.hero{flex-direction:column;text-align:center}.hero-img{text-align:center}.fitur{flex-direction:column;align-items:center}.fitur-box{width:100%}.project-grid{grid-template-columns:repeat(2,1fr)}.contact-section{grid-template-columns:1fr}.project-grid img{height:140px}}
+@media (max-width:900px){header{flex-direction:column;align-items:center}nav{justify-content:center}.hero{flex-direction:column;text-align:center}.hero-img{text-align:center}.fitur{flex-direction:column;align-items:center}.fitur-box{width:100%}.project-grid{grid-template-columns:repeat(2,1fr)}.contact-section{grid-template-columns:1fr}.project-grid img{height:140px}}
 @media (max-width:480px){.project-grid{grid-template-columns:1fr}nav a{font-size:14px}.hero-text h1{font-size:36px}}
 
 @keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
