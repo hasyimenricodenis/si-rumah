@@ -18,6 +18,11 @@ nav a:hover::after,nav a.active::after{width:100%}
 .hero-img{flex:1;text-align:right}.hero-img img{max-width:100%;height:auto;border-radius:20px;box-shadow:0 16px 40px rgba(0,0,0,0.1);transition:transform .5s}
 .hero-img img:hover{transform:scale(1.05)}
 
+/* Trailer section styling */
+.hero.trailer{padding:40px 6%;min-height:auto}
+.hero.trailer .hero-img{text-align:center}
+.hero.trailer .hero-img iframe{width:100%;max-width:800px;aspect-ratio:16/9;border-radius:20px;box-shadow:0 16px 40px rgba(0,0,0,0.1);border:0}
+
 .cta{display:inline-block;padding:12px 28px;border-radius:30px;background:var(--primary);color:#fff;text-decoration:none;font-weight:600;box-shadow:0 6px 18px rgba(0,0,0,0.1);transition:transform .3s}
 .cta:hover{transform:translateY(-4px)}
 
