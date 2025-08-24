@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanda Bahaya Kehamilan & Persalinan</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #8b5cf6;
+  --secondary: #ec4899;
+  --light-bg: #fdfcff;
+  --danger: #ef4444;
+}
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--light-bg);
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.hero-text {
+  flex: 1 1 350px;
+}
+.hero-text h2 {
+  font-size: 1.8rem;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+.hero-text p {
+  font-size: 1rem;
+  color: #555;
+}
+.hero img {
+  flex: 1 1 300px;
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+}
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.card h3 {
+  font-size: 1.2rem;
+  color: var(--danger);
+  margin-bottom: 8px;
+}
+.card p {
+  flex: 1;
+  color: #444;
+  margin-bottom: 10px;
+}
+.card .action {
+  background: #fef2f2;
+  border-left: 4px solid var(--danger);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+footer {
+  background: #f9fafb;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Tanda Bahaya Kehamilan Pada Trimester 3</h1>
+  <p>Kenali gejala berbahaya dan segera cari pertolongan</p>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Segera cari bantuan jika mengalami salah satu dari tanda ini!</h2>
+    <p>Tanda-tanda berikut memerlukan evaluasi medis segera untuk menjaga keselamatan ibu dan bayi. Jangan menunda, tindakan cepat dapat menyelamatkan nyawa.</p>
+  </div>
+  <img src="assets/img/Screenshot 2025-08-15 120359.png" alt="Foto ilustrasi ibu hamil" height="300" width="200">
+</section>
+
+<section class="grid">
+  <div class="card">
+    <div class="card-icon">👶</div>
+    <h3>Gerakan bayi kurang dari 10 kali dalam 12 jam</h3>
+    <p>Hitung gerakan bayi pada waktu dia aktif. Jika kurang dari 10 kali dalam 12 jam, segera periksa ke tenaga kesehatan.</p>
+    <div class="action"><strong>Tindakan:</strong> Berbaring miring kiri, hitung gerakan 2 jam. Jika tetap kurang, segera ke fasilitas kesehatan.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">💧</div>
+    <h3>Ketuban pecah tanpa kontraksi</h3>
+    <p>Jika air ketuban keluar namun kontraksi belum muncul, risiko infeksi meningkat.</p>
+    <div class="action"><strong>Tindakan:</strong> Gunakan pembalut bersih, jangan memasukkan apapun ke vagina, segera ke RS/BPM/Puskesmas.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">⚡</div>
+    <h3>Nyeri perut hebat di antara kontraksi</h3>
+    <p>Nyeri terus-menerus di luar waktu kontraksi dapat menjadi tanda komplikasi serius.</p>
+    <div class="action"><strong>Tindakan:</strong> Hentikan aktivitas, minta bantuan, dan segera menuju fasilitas kesehatan.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">🩸</div>
+    <h3>Perdarahan hebat</h3>
+    <p>Perdarahan banyak atau disertai pusing/lemas adalah tanda gawat darurat.</p>
+    <div class="action"><strong>Tindakan:</strong> Tekan perdarahan dengan pembalut bersih, segera ke IGD, hubungi darurat.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">🤕</div>
+    <h3>Nyeri kepala hebat</h3>
+    <p>Apalagi jika disertai pandangan kabur atau bengkak, bisa mengindikasikan preeklamsia.</p>
+    <div class="action"><strong>Tindakan:</strong> Istirahat di ruangan tenang, periksa tekanan darah segera.</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 SiRumah - Komunitas Kebidanan Digital</p>; 
+</footer>
+
+</body>
+</html>
